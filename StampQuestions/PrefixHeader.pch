@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  StampQuestions
+//
+//  Created by Nguyen Truong Nguyen on 5/25/15.
+//  Copyright (c) 2015 Nguyen Truong Nguyen. All rights reserved.
+//
+
+#ifndef StampQuestions_PrefixHeader_pch
+#define StampQuestions_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#import "Constant.h"
+#import "Config.h"
+
+#import "OfferHelper.h"
+#import "StampHelper.h"
+#import "MessageHelper.h"
+#import "SWRevealViewController.h"
+
+#endif

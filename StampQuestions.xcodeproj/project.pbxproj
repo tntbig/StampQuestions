@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D903B9731B0F293D0074F450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D903B9721B0F293D0074F450 /* Foundation.framework */; };
+		D903B9751B0F29450074F450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D903B9741B0F29450074F450 /* UIKit.framework */; };
+		D903B9771B0F295A0074F450 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D903B9761B0F295A0074F450 /* Security.framework */; };
+		D903B9791B0F29630074F450 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D903B9781B0F29630074F450 /* CoreLocation.framework */; };
+		D903B97B1B0F29700074F450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D903B97A1B0F29700074F450 /* CoreGraphics.framework */; };
+		D903B97D1B0F29790074F450 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D903B97C1B0F29790074F450 /* SystemConfiguration.framework */; };
+		D903B97F1B0F298D0074F450 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D903B97E1B0F298D0074F450 /* libsqlite3.0.dylib */; };
+		D957B7001B141B45008A3754 /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = D957B6FE1B141B45008A3754 /* normalize.css */; };
+		D957B7011B141B45008A3754 /* skeleton.css in Resources */ = {isa = PBXBuildFile; fileRef = D957B6FF1B141B45008A3754 /* skeleton.css */; };
+		D957B7041B1446E0008A3754 /* MessageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D957B7031B1446E0008A3754 /* MessageHelper.m */; };
+		D957B7101B14623E008A3754 /* CouponsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D957B70F1B14623E008A3754 /* CouponsViewController.m */; };
+		D957B7131B146302008A3754 /* StampCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D957B7121B146302008A3754 /* StampCardsViewController.m */; };
+		D957B7161B14650D008A3754 /* WeblinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D957B7151B14650D008A3754 /* WeblinkViewController.m */; };
+		D957B7181B146C6E008A3754 /* CouponsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D957B7171B146C6E008A3754 /* CouponsCell.xib */; };
+		D957B71B1B146E95008A3754 /* CouponViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D957B71A1B146E95008A3754 /* CouponViewCell.m */; };
+		D96249571B0EFB3500BB0282 /* DetailsStampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96249561B0EFB3500BB0282 /* DetailsStampViewController.m */; };
+		D979F87E1B0DB7B70052934C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D979F87D1B0DB7B70052934C /* main.m */; };
+		D979F8811B0DB7B70052934C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D979F8801B0DB7B70052934C /* AppDelegate.m */; };
+		D979F8841B0DB7B70052934C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D979F8831B0DB7B70052934C /* ViewController.m */; };
+		D979F8871B0DB7B70052934C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D979F8851B0DB7B70052934C /* Main.storyboard */; };
+		D979F8891B0DB7B70052934C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D979F8881B0DB7B70052934C /* Images.xcassets */; };
+		D979F88C1B0DB7B70052934C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D979F88A1B0DB7B70052934C /* LaunchScreen.xib */; };
+		D979F8981B0DB7B70052934C /* StampQuestionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D979F8971B0DB7B70052934C /* StampQuestionsTests.m */; };
+		D979F8A31B0DC7EF0052934C /* jpcities.js in Resources */ = {isa = PBXBuildFile; fileRef = D979F8A11B0DC7EF0052934C /* jpcities.js */; };
+		D979F8A41B0DC7EF0052934C /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = D979F8A21B0DC7EF0052934C /* options.html */; };
+		D979F8A71B0EC1710052934C /* jobs.js in Resources */ = {isa = PBXBuildFile; fileRef = D979F8A61B0EC1710052934C /* jobs.js */; };
+		D9FD45B81B12AC9800AF1D02 /* MethodHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FD45B71B12AC9800AF1D02 /* MethodHelper.m */; };
+		D9FD45BB1B12BCAD00AF1D02 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FD45BA1B12BCAD00AF1D02 /* SWRevealViewController.m */; };
+		D9FD45BF1B12BE5200AF1D02 /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FD45BE1B12BE5200AF1D02 /* SideBarViewController.m */; };
+		D9FD45C21B12BEFA00AF1D02 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D9FD45C01B12BEFA00AF1D02 /* menu.png */; };
+		D9FD45C31B12BEFA00AF1D02 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9FD45C11B12BEFA00AF1D02 /* menu@2x.png */; };
+		D9FD45C51B12D30A00AF1D02 /* cupidokit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FD45C41B12D30A00AF1D02 /* cupidokit.framework */; };
+		D9FD45C71B12D31900AF1D02 /* leonis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FD45C61B12D31900AF1D02 /* leonis.framework */; };
+		D9FD45CB1B12D33800AF1D02 /* StampKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FD45CA1B12D33800AF1D02 /* StampKit.framework */; };
+		D9FD45CE1B12D3DF00AF1D02 /* OfferHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FD45CD1B12D3DF00AF1D02 /* OfferHelper.m */; };
+		D9FD45D21B12F31B00AF1D02 /* StampHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FD45D11B12F31B00AF1D02 /* StampHelper.m */; };
+		D9FD45D51B12FE5600AF1D02 /* offerskit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FD45D41B12FE5600AF1D02 /* offerskit.framework */; };
+		D9FD45D71B13005100AF1D02 /* TCIGroupAndApikey.json in Resources */ = {isa = PBXBuildFile; fileRef = D9FD45D61B13005100AF1D02 /* TCIGroupAndApikey.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D979F8921B0DB7B70052934C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D979F8701B0DB7B70052934C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D979F8771B0DB7B70052934C;
+			remoteInfo = StampQuestions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D903B95B1B0F252F0074F450 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = Helper/Config.h; sourceTree = "<group>"; };
+		D903B9711B0F28710074F450 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constant.h; path = Helper/Constant.h; sourceTree = "<group>"; };
+		D903B9721B0F293D0074F450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D903B9741B0F29450074F450 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D903B9761B0F295A0074F450 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D903B9781B0F29630074F450 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D903B97A1B0F29700074F450 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D903B97C1B0F29790074F450 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D903B97E1B0F298D0074F450 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D957B6FE1B141B45008A3754 /* normalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = normalize.css; path = LocalFiles/normalize.css; sourceTree = "<group>"; };
+		D957B6FF1B141B45008A3754 /* skeleton.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = skeleton.css; path = LocalFiles/skeleton.css; sourceTree = "<group>"; };
+		D957B7021B1446E0008A3754 /* MessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageHelper.h; path = Helper/MessageHelper.h; sourceTree = "<group>"; };
+		D957B7031B1446E0008A3754 /* MessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageHelper.m; path = Helper/MessageHelper.m; sourceTree = "<group>"; };
+		D957B70E1B14623E008A3754 /* CouponsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponsViewController.h; path = Controller/CouponsViewController.h; sourceTree = "<group>"; };
+		D957B70F1B14623E008A3754 /* CouponsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponsViewController.m; path = Controller/CouponsViewController.m; sourceTree = "<group>"; };
+		D957B7111B146302008A3754 /* StampCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StampCardsViewController.h; path = Helper/StampCardsViewController.h; sourceTree = "<group>"; };
+		D957B7121B146302008A3754 /* StampCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StampCardsViewController.m; path = Helper/StampCardsViewController.m; sourceTree = "<group>"; };
+		D957B7141B14650D008A3754 /* WeblinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeblinkViewController.h; path = Controller/WeblinkViewController.h; sourceTree = "<group>"; };
+		D957B7151B14650D008A3754 /* WeblinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeblinkViewController.m; path = Controller/WeblinkViewController.m; sourceTree = "<group>"; };
+		D957B7171B146C6E008A3754 /* CouponsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CouponsCell.xib; sourceTree = "<group>"; };
+		D957B7191B146E95008A3754 /* CouponViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponViewCell.h; path = Cell/CouponViewCell.h; sourceTree = "<group>"; };
+		D957B71A1B146E95008A3754 /* CouponViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponViewCell.m; path = Cell/CouponViewCell.m; sourceTree = "<group>"; };
+		D96249551B0EFB3500BB0282 /* DetailsStampViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsStampViewController.h; path = Controller/DetailsStampViewController.h; sourceTree = "<group>"; };
+		D96249561B0EFB3500BB0282 /* DetailsStampViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsStampViewController.m; path = Controller/DetailsStampViewController.m; sourceTree = "<group>"; };
+		D979F8781B0DB7B70052934C /* StampQuestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StampQuestions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D979F87C1B0DB7B70052934C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D979F87D1B0DB7B70052934C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D979F87F1B0DB7B70052934C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D979F8801B0DB7B70052934C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D979F8821B0DB7B70052934C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D979F8831B0DB7B70052934C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D979F8861B0DB7B70052934C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D979F8881B0DB7B70052934C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D979F88B1B0DB7B70052934C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D979F8911B0DB7B70052934C /* StampQuestionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampQuestionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D979F8961B0DB7B70052934C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D979F8971B0DB7B70052934C /* StampQuestionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StampQuestionsTests.m; sourceTree = "<group>"; };
+		D979F8A11B0DC7EF0052934C /* jpcities.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jpcities.js; path = LocalFiles/jpcities.js; sourceTree = "<group>"; };
+		D979F8A21B0DC7EF0052934C /* options.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = options.html; path = LocalFiles/options.html; sourceTree = "<group>"; };
+		D979F8A61B0EC1710052934C /* jobs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jobs.js; path = LocalFiles/jobs.js; sourceTree = "<group>"; };
+		D9FD45B61B12AC9800AF1D02 /* MethodHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodHelper.h; path = Helper/MethodHelper.h; sourceTree = "<group>"; };
+		D9FD45B71B12AC9800AF1D02 /* MethodHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodHelper.m; path = Helper/MethodHelper.m; sourceTree = "<group>"; };
+		D9FD45B91B12BCAD00AF1D02 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = Menu/SWRevealViewController.h; sourceTree = "<group>"; };
+		D9FD45BA1B12BCAD00AF1D02 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = Menu/SWRevealViewController.m; sourceTree = "<group>"; };
+		D9FD45BD1B12BE5200AF1D02 /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideBarViewController.h; path = Controller/SideBarViewController.h; sourceTree = "<group>"; };
+		D9FD45BE1B12BE5200AF1D02 /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideBarViewController.m; path = Controller/SideBarViewController.m; sourceTree = "<group>"; };
+		D9FD45C01B12BEFA00AF1D02 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = Images/menu.png; sourceTree = "<group>"; };
+		D9FD45C11B12BEFA00AF1D02 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "Images/menu@2x.png"; sourceTree = "<group>"; };
+		D9FD45C41B12D30A00AF1D02 /* cupidokit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cupidokit.framework; path = StampQuestions/Libraries/cupidokit.framework; sourceTree = "<group>"; };
+		D9FD45C61B12D31900AF1D02 /* leonis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = leonis.framework; path = StampQuestions/Libraries/leonis.framework; sourceTree = "<group>"; };
+		D9FD45CA1B12D33800AF1D02 /* StampKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StampKit.framework; path = StampQuestions/Libraries/StampKit.framework; sourceTree = "<group>"; };
+		D9FD45CC1B12D3DF00AF1D02 /* OfferHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OfferHelper.h; path = Helper/OfferHelper.h; sourceTree = "<group>"; };
+		D9FD45CD1B12D3DF00AF1D02 /* OfferHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OfferHelper.m; path = Helper/OfferHelper.m; sourceTree = "<group>"; };
+		D9FD45CF1B12D92800AF1D02 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D9FD45D01B12F31B00AF1D02 /* StampHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StampHelper.h; path = Helper/StampHelper.h; sourceTree = "<group>"; };
+		D9FD45D11B12F31B00AF1D02 /* StampHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StampHelper.m; path = Helper/StampHelper.m; sourceTree = "<group>"; };
+		D9FD45D41B12FE5600AF1D02 /* offerskit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = offerskit.framework; path = StampQuestions/Libraries/offerskit.framework; sourceTree = "<group>"; };
+		D9FD45D61B13005100AF1D02 /* TCIGroupAndApikey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TCIGroupAndApikey.json; path = LocalFiles/TCIGroupAndApikey.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D979F8751B0DB7B70052934C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FD45D51B12FE5600AF1D02 /* offerskit.framework in Frameworks */,
+				D9FD45CB1B12D33800AF1D02 /* StampKit.framework in Frameworks */,
+				D9FD45C71B12D31900AF1D02 /* leonis.framework in Frameworks */,
+				D9FD45C51B12D30A00AF1D02 /* cupidokit.framework in Frameworks */,
+				D903B97F1B0F298D0074F450 /* libsqlite3.0.dylib in Frameworks */,
+				D903B97D1B0F29790074F450 /* SystemConfiguration.framework in Frameworks */,
+				D903B97B1B0F29700074F450 /* CoreGraphics.framework in Frameworks */,
+				D903B9791B0F29630074F450 /* CoreLocation.framework in Frameworks */,
+				D903B9771B0F295A0074F450 /* Security.framework in Frameworks */,
+				D903B9751B0F29450074F450 /* UIKit.framework in Frameworks */,
+				D903B9731B0F293D0074F450 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D979F88E1B0DB7B70052934C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D903B9571B0F24880074F450 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D903B95B1B0F252F0074F450 /* Config.h */,
+				D903B9711B0F28710074F450 /* Constant.h */,
+				D9FD45B61B12AC9800AF1D02 /* MethodHelper.h */,
+				D9FD45B71B12AC9800AF1D02 /* MethodHelper.m */,
+				D9FD45CC1B12D3DF00AF1D02 /* OfferHelper.h */,
+				D9FD45CD1B12D3DF00AF1D02 /* OfferHelper.m */,
+				D9FD45D01B12F31B00AF1D02 /* StampHelper.h */,
+				D957B7021B1446E0008A3754 /* MessageHelper.h */,
+				D957B7031B1446E0008A3754 /* MessageHelper.m */,
+				D9FD45D11B12F31B00AF1D02 /* StampHelper.m */,
+				D9FD45CF1B12D92800AF1D02 /* PrefixHeader.pch */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		D903B9661B0F260D0074F450 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD45D41B12FE5600AF1D02 /* offerskit.framework */,
+				D903B97E1B0F298D0074F450 /* libsqlite3.0.dylib */,
+				D9FD45CA1B12D33800AF1D02 /* StampKit.framework */,
+				D9FD45C61B12D31900AF1D02 /* leonis.framework */,
+				D9FD45C41B12D30A00AF1D02 /* cupidokit.framework */,
+				D903B97C1B0F29790074F450 /* SystemConfiguration.framework */,
+				D903B97A1B0F29700074F450 /* CoreGraphics.framework */,
+				D903B9781B0F29630074F450 /* CoreLocation.framework */,
+				D903B9761B0F295A0074F450 /* Security.framework */,
+				D903B9741B0F29450074F450 /* UIKit.framework */,
+				D903B9721B0F293D0074F450 /* Foundation.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		D957B71C1B146E9B008A3754 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D957B7171B146C6E008A3754 /* CouponsCell.xib */,
+				D957B7191B146E95008A3754 /* CouponViewCell.h */,
+				D957B71A1B146E95008A3754 /* CouponViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		D96249541B0EF9E700BB0282 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D979F8821B0DB7B70052934C /* ViewController.h */,
+				D979F8831B0DB7B70052934C /* ViewController.m */,
+				D957B70E1B14623E008A3754 /* CouponsViewController.h */,
+				D957B70F1B14623E008A3754 /* CouponsViewController.m */,
+				D96249551B0EFB3500BB0282 /* DetailsStampViewController.h */,
+				D96249561B0EFB3500BB0282 /* DetailsStampViewController.m */,
+				D9FD45BD1B12BE5200AF1D02 /* SideBarViewController.h */,
+				D9FD45BE1B12BE5200AF1D02 /* SideBarViewController.m */,
+				D957B7111B146302008A3754 /* StampCardsViewController.h */,
+				D957B7121B146302008A3754 /* StampCardsViewController.m */,
+				D957B7141B14650D008A3754 /* WeblinkViewController.h */,
+				D957B7151B14650D008A3754 /* WeblinkViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D962495A1B0EFDB000BB0282 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD45C01B12BEFA00AF1D02 /* menu.png */,
+				D9FD45C11B12BEFA00AF1D02 /* menu@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D979F86F1B0DB7B70052934C = {
+			isa = PBXGroup;
+			children = (
+				D979F87A1B0DB7B70052934C /* StampQuestions */,
+				D979F8941B0DB7B70052934C /* StampQuestionsTests */,
+				D903B9661B0F260D0074F450 /* Libraries */,
+			);
+			sourceTree = "<group>";
+		};
+		D979F8791B0DB7B70052934C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D979F8781B0DB7B70052934C /* StampQuestions.app */,
+				D979F8911B0DB7B70052934C /* StampQuestionsTests.xctest */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D979F87A1B0DB7B70052934C /* StampQuestions */ = {
+			isa = PBXGroup;
+			children = (
+				D979F87F1B0DB7B70052934C /* AppDelegate.h */,
+				D979F8801B0DB7B70052934C /* AppDelegate.m */,
+				D979F8851B0DB7B70052934C /* Main.storyboard */,
+				D979F8881B0DB7B70052934C /* Images.xcassets */,
+				D979F88A1B0DB7B70052934C /* LaunchScreen.xib */,
+				D957B71C1B146E9B008A3754 /* Cell */,
+				D96249541B0EF9E700BB0282 /* Controller */,
+				D962495A1B0EFDB000BB0282 /* Images */,
+				D979F87B1B0DB7B70052934C /* Supporting Files */,
+				D903B9571B0F24880074F450 /* Helper */,
+				D979F8A51B0DC7F50052934C /* LocalFiles */,
+				D9FD45BC1B12BCB700AF1D02 /* Menu */,
+			);
+			path = StampQuestions;
+			sourceTree = "<group>";
+		};
+		D979F87B1B0DB7B70052934C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D979F87C1B0DB7B70052934C /* Info.plist */,
+				D979F87D1B0DB7B70052934C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D979F8941B0DB7B70052934C /* StampQuestionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D979F8791B0DB7B70052934C /* Products */,
+				D979F8971B0DB7B70052934C /* StampQuestionsTests.m */,
+				D979F8951B0DB7B70052934C /* Supporting Files */,
+			);
+			path = StampQuestionsTests;
+			sourceTree = "<group>";
+		};
+		D979F8951B0DB7B70052934C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D979F8961B0DB7B70052934C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D979F8A51B0DC7F50052934C /* LocalFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D979F8A11B0DC7EF0052934C /* jpcities.js */,
+				D9FD45D61B13005100AF1D02 /* TCIGroupAndApikey.json */,
+				D957B6FE1B141B45008A3754 /* normalize.css */,
+				D957B6FF1B141B45008A3754 /* skeleton.css */,
+				D979F8A21B0DC7EF0052934C /* options.html */,
+				D979F8A61B0EC1710052934C /* jobs.js */,
+			);
+			name = LocalFiles;
+			sourceTree = "<group>";
+		};
+		D9FD45BC1B12BCB700AF1D02 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD45B91B12BCAD00AF1D02 /* SWRevealViewController.h */,
+				D9FD45BA1B12BCAD00AF1D02 /* SWRevealViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D979F8771B0DB7B70052934C /* StampQuestions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D979F89B1B0DB7B70052934C /* Build configuration list for PBXNativeTarget "StampQuestions" */;
+			buildPhases = (
+				D979F8741B0DB7B70052934C /* Sources */,
+				D979F8751B0DB7B70052934C /* Frameworks */,
+				D979F8761B0DB7B70052934C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StampQuestions;
+			productName = StampQuestions;
+			productReference = D979F8781B0DB7B70052934C /* StampQuestions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D979F8901B0DB7B70052934C /* StampQuestionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D979F89E1B0DB7B70052934C /* Build configuration list for PBXNativeTarget "StampQuestionsTests" */;
+			buildPhases = (
+				D979F88D1B0DB7B70052934C /* Sources */,
+				D979F88E1B0DB7B70052934C /* Frameworks */,
+				D979F88F1B0DB7B70052934C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D979F8931B0DB7B70052934C /* PBXTargetDependency */,
+			);
+			name = StampQuestionsTests;
+			productName = StampQuestionsTests;
+			productReference = D979F8911B0DB7B70052934C /* StampQuestionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D979F8701B0DB7B70052934C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nguyen Truong Nguyen";
+				TargetAttributes = {
+					D979F8771B0DB7B70052934C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D979F8901B0DB7B70052934C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D979F8771B0DB7B70052934C;
+					};
+				};
+			};
+			buildConfigurationList = D979F8731B0DB7B70052934C /* Build configuration list for PBXProject "StampQuestions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D979F86F1B0DB7B70052934C;
+			productRefGroup = D979F8791B0DB7B70052934C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D979F8771B0DB7B70052934C /* StampQuestions */,
+				D979F8901B0DB7B70052934C /* StampQuestionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D979F8761B0DB7B70052934C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FD45C21B12BEFA00AF1D02 /* menu.png in Resources */,
+				D957B7001B141B45008A3754 /* normalize.css in Resources */,
+				D979F8A71B0EC1710052934C /* jobs.js in Resources */,
+				D957B7011B141B45008A3754 /* skeleton.css in Resources */,
+				D9FD45D71B13005100AF1D02 /* TCIGroupAndApikey.json in Resources */,
+				D979F8871B0DB7B70052934C /* Main.storyboard in Resources */,
+				D979F8A31B0DC7EF0052934C /* jpcities.js in Resources */,
+				D9FD45C31B12BEFA00AF1D02 /* menu@2x.png in Resources */,
+				D979F8A41B0DC7EF0052934C /* options.html in Resources */,
+				D979F88C1B0DB7B70052934C /* LaunchScreen.xib in Resources */,
+				D979F8891B0DB7B70052934C /* Images.xcassets in Resources */,
+				D957B7181B146C6E008A3754 /* CouponsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D979F88F1B0DB7B70052934C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D979F8741B0DB7B70052934C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D957B7131B146302008A3754 /* StampCardsViewController.m in Sources */,
+				D9FD45BF1B12BE5200AF1D02 /* SideBarViewController.m in Sources */,
+				D979F8841B0DB7B70052934C /* ViewController.m in Sources */,
+				D9FD45CE1B12D3DF00AF1D02 /* OfferHelper.m in Sources */,
+				D96249571B0EFB3500BB0282 /* DetailsStampViewController.m in Sources */,
+				D9FD45D21B12F31B00AF1D02 /* StampHelper.m in Sources */,
+				D979F8811B0DB7B70052934C /* AppDelegate.m in Sources */,
+				D957B7101B14623E008A3754 /* CouponsViewController.m in Sources */,
+				D9FD45B81B12AC9800AF1D02 /* MethodHelper.m in Sources */,
+				D957B7041B1446E0008A3754 /* MessageHelper.m in Sources */,
+				D957B71B1B146E95008A3754 /* CouponViewCell.m in Sources */,
+				D979F87E1B0DB7B70052934C /* main.m in Sources */,
+				D957B7161B14650D008A3754 /* WeblinkViewController.m in Sources */,
+				D9FD45BB1B12BCAD00AF1D02 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D979F88D1B0DB7B70052934C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D979F8981B0DB7B70052934C /* StampQuestionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D979F8931B0DB7B70052934C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D979F8771B0DB7B70052934C /* StampQuestions */;
+			targetProxy = D979F8921B0DB7B70052934C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D979F8851B0DB7B70052934C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D979F8861B0DB7B70052934C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D979F88A1B0DB7B70052934C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D979F88B1B0DB7B70052934C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D979F8991B0DB7B70052934C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D979F89A1B0DB7B70052934C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D979F89C1B0DB7B70052934C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StampQuestions/Libraries",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/StampQuestions/PrefixHeader.pch";
+				INFOPLIST_FILE = StampQuestions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D979F89D1B0DB7B70052934C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StampQuestions/Libraries",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/StampQuestions/PrefixHeader.pch";
+				INFOPLIST_FILE = StampQuestions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D979F89F1B0DB7B70052934C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StampQuestionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StampQuestions.app/StampQuestions";
+			};
+			name = Debug;
+		};
+		D979F8A01B0DB7B70052934C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StampQuestionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StampQuestions.app/StampQuestions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D979F8731B0DB7B70052934C /* Build configuration list for PBXProject "StampQuestions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D979F8991B0DB7B70052934C /* Debug */,
+				D979F89A1B0DB7B70052934C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D979F89B1B0DB7B70052934C /* Build configuration list for PBXNativeTarget "StampQuestions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D979F89C1B0DB7B70052934C /* Debug */,
+				D979F89D1B0DB7B70052934C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D979F89E1B0DB7B70052934C /* Build configuration list for PBXNativeTarget "StampQuestionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D979F89F1B0DB7B70052934C /* Debug */,
+				D979F8A01B0DB7B70052934C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D979F8701B0DB7B70052934C /* Project object */;
+}
